@@ -1,0 +1,5 @@
+<button (click)="setData()">Set Data</button>
+
+<div *ngIf="data$ | async as data">
+  {{ data }}
+</div>
